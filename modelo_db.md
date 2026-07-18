@@ -1,5 +1,9 @@
-
 # Atividade 3 - Construção dos Comandos SQL para uma Aplicação Web existente
+## Identificação da Aplicação
+
+- **Aplicação:** Instagram
+- **Descrição:** O Instagram é uma rede social digital focada no compartilhamento de fotos e vídeos. Pertencente à empresa Meta, o conceito central do aplicativo gira
+em torno da comunicação visual, permitindo que usuários publiquem momentos do dia a dia, sigam perfis de interesse e interajam por meio de curtidas, comentários e mensagens diretas.
 
 ## Equipe
 - Sarah Beatriz Barbosa do Nascimento 
