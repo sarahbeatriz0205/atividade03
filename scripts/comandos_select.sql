@@ -6,9 +6,9 @@ FROM Usuario;
 -- Comando C2.
 -- Listar as publicações realizadas por um usuário específico.
 SELECT
-    id,
+    id_publicacao,   
     descricao,
-    data
+    data_publicacao  
 FROM Publicacao
 WHERE usuario = 'Sarah';
 
@@ -18,8 +18,8 @@ SELECT
     *
 FROM Comentario
 WHERE 
-    idPublicacao = 1
-    AND data >= '2026-01-01';
+    id_publicacao = 1 
+    AND data_comentario >= '2026-01-01'; 
 
 -- Comando C4.
 -- Exibir a quantidade de publicações realizadas por cada usuário.

@@ -3,7 +3,7 @@
 SELECT
     U.nome,
     P.descricao,
-    P.data
+    P.data_publicacao -- CORRIGIDO: nome real da coluna
 FROM
     Usuario AS U
     INNER JOIN Publicacao AS P ON (U.usuario = P.usuario);
@@ -14,11 +14,11 @@ SELECT
     U.nome,
     P.descricao,
     C.texto,
-    C.data
+    C.data_comentario -- CORRIGIDO: nome real da coluna
 FROM 
     Usuario AS U
     INNER JOIN Comentario AS C ON (U.usuario = C.usuario)
-    INNER JOIN Publicacao AS P ON (C.idPublicacao = P.id);
+    INNER JOIN Publicacao AS P ON (C.id_publicacao = P.id_publicacao); -- CORRIGIDO: nomes reais das colunas
 
 -- Comando D3.
 -- Listar todos os usuários, incluindo aqueles que ainda não possuem perfil cadastrado.
