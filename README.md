@@ -6,7 +6,7 @@
 - Samuel Chad Dantas da Silva 
 
 ## Sumário
-- [Identificação da Equipe/Modelo Relacional e Diagrama de Dados](https://github.com/sarahbeatriz0205/atividade03/blob/main/modelo_db.md)
+- [Identificação da Equipe/Modelo Relacional e Dicionário de Dados](https://github.com/sarahbeatriz0205/atividade03/blob/main/modelo_db.md)
 - [Comandos DDL](https://github.com/sarahbeatriz0205/atividade03/blob/main/scripts/comandos_ddl.sql)
 - [Comandos DML](https://github.com/sarahbeatriz0205/atividade03/blob/main/scripts/comandos_dml.sql)
 - [Comandos SELECT](https://github.com/sarahbeatriz0205/atividade03/blob/main/scripts/comandos_select.sql)
